@@ -7,7 +7,7 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  ["cloudflare-docker-proxy.izzelaliz.workers.dev"]: dockerHub,
+  ["cr.conchservices.com"]: dockerHub,
 };
 
 function routeByHosts(host) {
